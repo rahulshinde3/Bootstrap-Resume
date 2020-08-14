@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Rahul Shinde</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&family=Ubuntu&display=swap"
+    rel="stylesheet" />
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/1bf8f932ea.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">Resume</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Technologies</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>
+            Rahul Shinde <br> Programmer
+          </h1>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/Rahul.png"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4">
+          <i class="icon fas fa-check-circle fa-3x"></i>
+          <h3>Hardworking</h3>
+        </div>
+
+        <div class="col-lg-4">
+          <i class="icon fas fa-bullseye fa-3x"></i>
+          <h3>Focused</h3>
+        </div>
+
+        <div class="col-lg-4">
+          <i class="icon fas fa-heart fa-3x"></i>
+          <h3>Guaranteed to work.</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <h2>Projects</h2>
+
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>ABU Asia-Pacific Robocon</h3>
+          </div>
+          <div class="card-body">
+            <h2>Coding Team</h2>
+            <p>Coded two bots</p>
+            <p>Automatic Bot</p>
+            <p>Manual Bot</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>ML Chatbot</h3>
+          </div>
+          <div class="card-body">
+            <h2>Efficient Design</h2>
+            <p>Simple Interface</p>
+            <p>User Friendly</p>
+            <p>May 2019</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Website for Tech team</h3>
+          </div>
+          <div class="card-body">
+            <h2>Full Stack</h2>
+            <p>May 2020</p>
+            <p>Great Design</p>
+            <p>Advanced Frameworks</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+    <h3 class="cta-text">Technologies</h3>
+    <p>HTML,CSS,JavaScript,React,PHP,ML</p>
+    <h3 class="cta-text">Languages</h3>
+    <p>C,Python,Java</p>
+  </section>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <i class="foot fab fa-twitter"></i>
+    <i class="foot fab fa-facebook-f"></i>
+    <i class="foot fab fa-instagram"></i>
+    <i class="foot fas fa-envelope"></i>
+    <p id="footer-text">© Copyright 2020</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
